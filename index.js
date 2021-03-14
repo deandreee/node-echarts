@@ -66,7 +66,7 @@ module.exports = function (config) {
 			if (config.enableAutoDispose) {
 				chart.dispose();
 			}
-			console.log("Create Img:" + config.path)
+			// console.log("Create Img:" + config.path)
 		} catch (err) {
 			console.error("Error: Write File failed" + err.message)
 		}
